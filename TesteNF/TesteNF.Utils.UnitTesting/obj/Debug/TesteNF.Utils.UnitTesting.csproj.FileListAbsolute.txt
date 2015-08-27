@@ -1,0 +1,7 @@
+C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\TesteNF.Utils.UnitTesting\obj\Debug\TesteNF.Utils.UnitTesting.csprojResolveAssemblyReference.cache
+C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\TesteNF.Utils.UnitTesting\bin\Debug\TesteNF.Utils.UnitTesting.dll
+C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\TesteNF.Utils.UnitTesting\bin\Debug\TesteNF.Utils.UnitTesting.pdb
+C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\TesteNF.Utils.UnitTesting\bin\Debug\ClassLibrary1.dll
+C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\TesteNF.Utils.UnitTesting\bin\Debug\ClassLibrary1.pdb
+C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\TesteNF.Utils.UnitTesting\obj\Debug\TesteNF.Utils.UnitTesting.dll
+C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\TesteNF.Utils.UnitTesting\obj\Debug\TesteNF.Utils.UnitTesting.pdb
