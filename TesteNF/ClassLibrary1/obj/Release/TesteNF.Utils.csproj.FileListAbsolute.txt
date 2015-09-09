@@ -1,0 +1,5 @@
+C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\ClassLibrary1\bin\Release\ClassLibrary1.dll
+C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\ClassLibrary1\bin\Release\ClassLibrary1.pdb
+C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\ClassLibrary1\obj\Release\TesteNF.Utils.csprojResolveAssemblyReference.cache
+C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\ClassLibrary1\obj\Release\ClassLibrary1.dll
+C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\ClassLibrary1\obj\Release\ClassLibrary1.pdb

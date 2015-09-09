@@ -1,0 +1,34 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Test"> 
+  <ItemGroup>
+    <SolutionFile Include="TesteNF.sln" />
+    <TestResultsDir Include="TestResults" />
+  </ItemGroup>
+ 
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <BuildPlatform Condition=" '$(BuildPlatform)' == '' ">Any CPU</BuildPlatform>
+    
+  </PropertyGroup>
+ 
+  <Target Name="Clean">
+    <RemoveDir Directories="@(TestResultsDir)" />
+  </Target>
+ 
+  <Target Name="Compile" DependsOnTargets="Clean">
+    <MSBuild Projects="@(SolutionFile)"
+             Targets="Rebuild"
+             Properties="Configuration=$(Configuration);Platform=$(BuildPlatform)" />
+  </Target>
+ 
+  <Target Name="Test" DependsOnTargets="Compile">
+    <ItemGroup>
+      <TestAssemblies Include="C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\TesteNF.Utils.UnitTesting\bin\Release\TesteNF.Utils.UnitTesting.dll" />
+    </ItemGroup>
+ 
+    <PropertyGroup>
+      <TestRunnerCommand>"$(TestRunnerExePath)" @(TestAssemblies->'"%(FullPath)"', ' ') /Logger:trx"</TestRunnerCommand>
+    </PropertyGroup>
+ 
+    
+  </Target>
+</Project>
