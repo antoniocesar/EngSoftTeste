@@ -10,6 +10,7 @@ namespace TesteNF.Utils
         public static double CalcularPIS(double valorBase)
         {
             return 0;
+
         }
         public static double CalcularCOFINS(double valorBase)
         {
