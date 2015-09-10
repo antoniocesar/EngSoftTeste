@@ -7,6 +7,8 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
     <BuildPlatform Condition=" '$(BuildPlatform)' == '' ">Any CPU</BuildPlatform>
+    <TestRunnerExePath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe</TestRunnerExePath>
+
     
   </PropertyGroup>
  
@@ -22,13 +24,13 @@
  
   <Target Name="Test" DependsOnTargets="Compile">
     <ItemGroup>
-      <TestAssemblies Include="C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\TesteNF.Utils.UnitTesting\bin\Release\TesteNF.Utils.UnitTesting.dll" />
+      <TestAssemblies Include="TesteNF.Utils.UnitTesting\bin\Release\TesteNF.Utils.UnitTesting.dll" />
     </ItemGroup>
  
     <PropertyGroup>
       <TestRunnerCommand>"$(TestRunnerExePath)" @(TestAssemblies->'"%(FullPath)"', ' ') /Logger:trx"</TestRunnerCommand>
     </PropertyGroup>
  
-    
+    <Exec Command="$(TestRunnerCommand)" />
   </Target>
 </Project>

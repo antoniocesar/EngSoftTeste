@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ee3decf8-77ba-4df7-a6b3-e653810ea816" name="SISTEMA@DELL 2015-09-10 07:54:15" runUser="AUTORIDADE NT\SISTEMA" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2015-09-10T07:54:15.4087933-03:00" queuing="2015-09-10T07:54:15.4138088-03:00" start="2015-09-10T07:54:15.4598095-03:00" finish="2015-09-10T07:54:15.6308642-03:00" />
+  <TestSettings name="default" id="4ec12ff6-3681-4e00-82ac-30540153dcf0">
+    <Execution>
+      <TestTypeSpecific />
+    </Execution>
+    <Deployment runDeploymentRoot="SISTEMA_DELL 2015-09-10 07_54_15" />
+    <Properties />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="9b039b3b-006f-49d0-8241-328bca7b9d15" testId="b66f5fe3-3ff3-65d9-6865-59db140e52cd" testName="TestarCalculoPIS" computerName="DELL" duration="00:00:00.0097046" startTime="2015-09-10T07:54:13.8963099-03:00" endTime="2015-09-10T07:54:14.2034071-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b039b3b-006f-49d0-8241-328bca7b9d15" />
+    <UnitTestResult executionId="004e01cf-f4af-4e86-97b7-dee8b049cd4b" testId="5d41d477-82ce-1982-c789-360138f7e201" testName="TestarCalculoCOFINS" computerName="DELL" duration="00:00:00.0001491" startTime="2015-09-10T07:54:14.2154105-03:00" endTime="2015-09-10T07:54:14.2154105-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="004e01cf-f4af-4e86-97b7-dee8b049cd4b" />
+    <UnitTestResult executionId="93b298eb-5aad-4ddb-a107-5b2ccb6fa124" testId="c3d156cf-e3a7-60a7-bbab-26068e747d27" testName="TestarCalculoIRPJ" computerName="DELL" duration="00:00:00.0001236" startTime="2015-09-10T07:54:14.2154105-03:00" endTime="2015-09-10T07:54:14.2154105-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="93b298eb-5aad-4ddb-a107-5b2ccb6fa124" />
+    <UnitTestResult executionId="87793f56-fc3e-474b-a0c1-0a27a52a2264" testId="25072b60-9c6c-56fc-929d-ad90050610a4" testName="TestarCalculoCSLL" computerName="DELL" duration="00:00:00.0001236" startTime="2015-09-10T07:54:14.2164109-03:00" endTime="2015-09-10T07:54:14.2164109-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87793f56-fc3e-474b-a0c1-0a27a52a2264" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestarCalculoPIS" storage="c:\users\note\documents\github\engsoftteste\testenf\testenf.utils.unittesting\bin\release\testenf.utils.unittesting.dll" id="b66f5fe3-3ff3-65d9-6865-59db140e52cd">
+      <Execution id="9b039b3b-006f-49d0-8241-328bca7b9d15" />
+      <TestMethod codeBase="C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\TesteNF.Utils.UnitTesting\bin\Release\TesteNF.Utils.UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="TesteNF.Utils.UnitTesting.TributacaoHelperTeste01" name="TestarCalculoPIS" />
+    </UnitTest>
+    <UnitTest name="TestarCalculoCOFINS" storage="c:\users\note\documents\github\engsoftteste\testenf\testenf.utils.unittesting\bin\release\testenf.utils.unittesting.dll" id="5d41d477-82ce-1982-c789-360138f7e201">
+      <Execution id="004e01cf-f4af-4e86-97b7-dee8b049cd4b" />
+      <TestMethod codeBase="C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\TesteNF.Utils.UnitTesting\bin\Release\TesteNF.Utils.UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="TesteNF.Utils.UnitTesting.TributacaoHelperTeste01" name="TestarCalculoCOFINS" />
+    </UnitTest>
+    <UnitTest name="TestarCalculoIRPJ" storage="c:\users\note\documents\github\engsoftteste\testenf\testenf.utils.unittesting\bin\release\testenf.utils.unittesting.dll" id="c3d156cf-e3a7-60a7-bbab-26068e747d27">
+      <Execution id="93b298eb-5aad-4ddb-a107-5b2ccb6fa124" />
+      <TestMethod codeBase="C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\TesteNF.Utils.UnitTesting\bin\Release\TesteNF.Utils.UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="TesteNF.Utils.UnitTesting.TributacaoHelperTeste01" name="TestarCalculoIRPJ" />
+    </UnitTest>
+    <UnitTest name="TestarCalculoCSLL" storage="c:\users\note\documents\github\engsoftteste\testenf\testenf.utils.unittesting\bin\release\testenf.utils.unittesting.dll" id="25072b60-9c6c-56fc-929d-ad90050610a4">
+      <Execution id="87793f56-fc3e-474b-a0c1-0a27a52a2264" />
+      <TestMethod codeBase="C:\Users\Note\Documents\GitHub\EngSoftTeste\TesteNF\TesteNF.Utils.UnitTesting\bin\Release\TesteNF.Utils.UnitTesting.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter" className="TesteNF.Utils.UnitTesting.TributacaoHelperTeste01" name="TestarCalculoCSLL" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="b66f5fe3-3ff3-65d9-6865-59db140e52cd" executionId="9b039b3b-006f-49d0-8241-328bca7b9d15" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d41d477-82ce-1982-c789-360138f7e201" executionId="004e01cf-f4af-4e86-97b7-dee8b049cd4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3d156cf-e3a7-60a7-bbab-26068e747d27" executionId="93b298eb-5aad-4ddb-a107-5b2ccb6fa124" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25072b60-9c6c-56fc-929d-ad90050610a4" executionId="87793f56-fc3e-474b-a0c1-0a27a52a2264" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

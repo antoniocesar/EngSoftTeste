@@ -9,20 +9,20 @@ namespace TesteNF.Utils
     {
         public static double CalcularPIS(double valorBase)
         {
-            return 0;
+            return Math.Round(valorBase * 0.65 / 100, 2);
 
         }
         public static double CalcularCOFINS(double valorBase)
         {
-            return 0;
+            return Math.Round(valorBase * 3 / 100, 2);
         }
         public static double CalcularIRPJ(double valorBase)
         {
-            return 0;
+            return Math.Round(valorBase * 1.5 / 100, 2);
         }
         public static double CalcularCSLL(double valorBase)
         {
-            return 0;
+            return Math.Round(valorBase * 1 / 100, 2);
         }
     }
 }
